@@ -24,7 +24,7 @@ interface TextFieldState {
 }
 
 export default class TextField extends React.Component<
-  TextFieldProps,
+  TextFieldProps
   TextFieldState
 > {
   static defaultProps = {
